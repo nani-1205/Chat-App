@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Chat Application</h1>
+
+        <div id="username-section">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+            <button id="setUsernameBtn">Set Username</button>
+        </div>
+
+        <div id="chat-section" style="display: none;">
+            <div id="chat-log">
+                <!-- Chat messages will be displayed here -->
+            </div>
+            <div id="input-area">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

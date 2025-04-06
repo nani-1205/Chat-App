@@ -1,0 +1,6 @@
+Flask
+Flask-Sockets
+pymongo
+python-dotenv
+gevent
+gevent-websocket
