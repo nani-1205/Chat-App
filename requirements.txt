@@ -1,0 +1,3 @@
+pymongo
+tkinter
+python-dotenv
